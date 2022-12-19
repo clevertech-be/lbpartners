@@ -13,13 +13,11 @@
 *
 * [Font Import]
 *
-* Poppins : https://fonts.google.com
-* Montserrat : https://fonts.google.com
+* Cormorant SC, Cormorant, Cabin, Montserrat : https://fonts.google.com
 *
 ----------------------------------------------*/
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&family=Cormorant+SC:wght@400;600;700&family=Cormorant:wght@400;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap');
 
 /*----------------------------------------------
 
@@ -2853,6 +2851,20 @@ header .navbar-expand .navbar-brand .featured .first {
     border-radius: 10px;
     border: none;
     background-color: var(--card-bg-color);
+    -webkit-transition: all .4s ease-out 0s;
+    -o-transition: all .4s ease-out 0s;
+    -moz-transition: all .4s ease-out 0s;
+    transition: all .4s ease-out 0s;
+}
+
+.footer-card {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    padding: 45px;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--footer-bg-color); 
     -webkit-transition: all .4s ease-out 0s;
     -o-transition: all .4s ease-out 0s;
     -moz-transition: all .4s ease-out 0s;

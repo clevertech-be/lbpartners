@@ -27,13 +27,14 @@
 
 :root {
     --color-burgundy: #8F002A;
-    --color-burgundy-l: #F8004A;
+    --color-burgundy-l: #C3003B;
     --color-green: #008F64;
-    --h1-font: 'Poppins', sans-serif;
+    --color-black: #111111;
+    --h1-font: 'Cormorant SC', serif;
     --h1-size: 4.5rem;
     --h1-weight: 900;
     
-    --h2-font: 'Poppins', sans-serif;
+    --h2-font: 'Cormorant SC', serif;
     --h2-size: 3rem;
     --h2-weight: 700;
     
@@ -41,10 +42,10 @@
     --p-size: 1rem;
     --p-weight: 400;
 
-    --header-bg-color: #21333e;
-    --nav-top-bg-color: #21333e;
-    --nav-sub-bg-color: #21333e;
-    --nav-holder-bg-color: #21333e;
+    --header-bg-color: var(--color-black);
+    --nav-top-bg-color: var(--color-black);
+    --nav-sub-bg-color: var(--color-black);
+    --nav-holder-bg-color: var(--color-black);
     --nav-brand-height: 35px;
     --nav-item-color: #f9f9f9;
     --hero-bg-color: #111117;

@@ -13,7 +13,7 @@
 
         <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
 
-        <title>NEXGEN - Business, Consulting, Finance, Insurance, Startup and Technology</title>
+        <title>LBPartners - Legal and Business Partners</title>
 
         <meta name="description" content="Business, Consulting, Finance, Insurance, Startup and Technology">
         <meta name="subject" content="Business, Consulting, Finance, Insurance, Startup and Technology">
@@ -56,15 +56,14 @@
             :root {
                 --hero-bg-color: #080d10;
                 
-                --section-1-bg-color: #ffffff;
+                --section-1-bg-color: #eef4ed;
                 --section-2-bg-color: #111117;
                 --section-3-bg-color: #111117;
                 --section-4-bg-color: #ffffff;
                 --section-5-bg-color: #eef4ed;
                 --section-6-bg-color: #111117;
-                --section-7-bg-color: #ffffff;
 
-                --footer-bg-color: #080d10; --footer-bg-image: url('../../assets/images/bg-7.jpg');
+                --footer-bg-color: #080d10; --footer-bg-image: url('../../assets/images/maps/map.png');
             }
         </style>
         
@@ -72,15 +71,6 @@
 
     <body class="home">
         
-        <!-- Preloader -->
-        <div id="preloader" data-timeout="2000" class="odd preloader counter">
-            <div data-aos="fade-up" data-aos-delay="500" class="row justify-content-center text-center items">
-                <div data-percent="100" class="radial">
-                    <span></span>
-                </div>
-            </div>
-        </div>
-
         <!-- Header -->
         <header id="header">
 
@@ -91,7 +81,7 @@
                     <!-- Navbar Items [left] -->
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a href="#" class="nav-link pl-0"><i class="fas fa-clock mr-2"></i>Open Hours: Mon - Sat - 9:00 - 18:00</a>
+                            <a href="#" class="nav-link pl-0"><i class="fas fa-clock mr-2"></i><span data-translation-key="navbar_text"></span></a>
                         </li>
                     </ul>
 
@@ -101,23 +91,17 @@
                     <!-- Navbar Items [right] -->
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a href="#" class="nav-link"><i class="fas fa-phone-alt mr-2"></i>+1 (305) 1234-5678</a>
+                            <a href="tel:+32493306015" class="nav-link"><i class="fas fa-phone-alt mr-2"></i><span data-translation-key="contact_phone_number"></span></a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link"><i class="fas fa-envelope mr-2"></i>hello@example.com</a>
+                            <a href="mailto:contact@lbpartners.be" class="nav-link"><i class="fas fa-envelope mr-2"></i><span data-translation-key="contact_email_address"></span></a>
                         </li>
                     </ul>
 
                     <!-- Navbar Icons -->
                     <ul class="navbar-nav icons">
                         <li class="nav-item social">
-                            <a href="#" class="nav-link"><i class="fab fa-facebook-f"></i></a>
-                        </li>
-                        <li class="nav-item social">
-                            <a href="#" class="nav-link"><i class="fab fa-twitter"></i></a>
-                        </li>
-                        <li class="nav-item social">
-                            <a href="#" class="nav-link pr-0"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://be.linkedin.com/company/bibtax" class="nav-link pr-0"><i class="fab fa-linkedin-in mr-2"></i>LinkedIn</a>
                         </li>
                     </ul>
 
@@ -131,16 +115,11 @@
                     <!-- Navbar Brand-->
                     <a class="navbar-brand" href="/">
                         <span class="brand">
-                            <span class="featured">
-                                <span class="first">NEX</span>
-                            </span>
-                            <span class="last">GEN</span>
+                            <img src="assets/images/logo/logo_02.svg" alt="LBPartners">
                         </span>
                         
-                        <!-- 
-                            Custom Logo
-                            <img src="assets/images/logo.svg" alt="NEXGEN">
-                        -->
+                    
+                
                     </a>
 
                     <!-- Nav holder -->
@@ -149,27 +128,23 @@
                     <!-- Navbar Items -->
                     <ul class="navbar-nav items">
                         <li class="nav-item">
-                            <a href="#header" class="smooth-anchor nav-link">HOME</a>
+                            <a href="#header" class="smooth-anchor nav-link" data-translation-key="menu_item1"></a>
                         </li>
                         <li class="nav-item">
-                            <a href="#video" class="smooth-anchor nav-link">ABOUT</a>
+                            <a href="#services" class="smooth-anchor nav-link" data-translation-key="menu_item2"></a>
                         </li>
                         <li class="nav-item">
-                            <a href="#services" class="smooth-anchor nav-link">SERVICES</a>
+                            <a href="#team" class="smooth-anchor nav-link" data-translation-key="menu_item3"></a>
                         </li>
                         <li class="nav-item">
-                            <a href="#team" class="smooth-anchor nav-link">TEAM</a>
+                            <a href="#blog" class="smooth-anchor nav-link" data-translation-key="menu_item5"></a>
                         </li>
                         <li class="nav-item">
-                            <a href="#blog" class="smooth-anchor nav-link">BLOG</a>
+                            <a href="#testimonials" class="smooth-anchor nav-link" data-translation-key="menu_item4"></a>
                         </li>
-                    </ul>
-
-                    <!-- Navbar Icons -->
-                    <ul class="navbar-nav icons">
                         <li class="nav-item">
-                            <a href="#" class="nav-link" data-toggle="modal" data-target="#sign">
-                                <i class="icon-user"></i>
+                            <a href="#" class="smooth-anchor nav-link" data-toggle="modal" data-target="#language">
+                                <i class="icon-globe m-0"></i>&nbsp;<span data-translation-key="current-locale"></span>
                             </a>
                         </li>
                     </ul>
@@ -186,7 +161,7 @@
                     <!-- Navbar Action -->
                     <ul class="navbar-nav action">
                         <li class="nav-item ml-3">
-                            <a href="#contact" class="smooth-anchor btn ml-lg-auto primary-button">GET IN TOUCH</a>
+                            <a href="#contact" class="smooth-anchor btn ml-lg-auto primary-button">Contactez-nous</a>
                         </li>
                     </ul>
                 </div>
@@ -197,27 +172,27 @@
         <!-- Hero -->
         <section id="slider" class="hero p-0 odd">
             <div class="swiper-container full-slider animation slider-h-100 slider-h-auto">
-                <div class="swiper-wrapper">
+                <div id="slider-items-container" class="swiper-wrapper">
 
                     <!-- Item 1 -->
                     <div class="swiper-slide slide-center">
 
                         <!-- Media -->
-                        <img src="assets/images/bg-1.jpg" alt="Full Image" class="full-image" data-mask="40">
+                        <img src="assets/photos/photo01.jpg" alt="Full Image" class="full-image" data-mask="40">
 
                         <div class="slide-content row">
                             <div class="col-12 d-flex justify-content-start inner">
                                 <div class="left text-left">
 
                                     <!-- Content -->
-                                    <h1 data-aos="zoom-in" data-aos-delay="2000" class="title effect-static-text">Business Consulting</h1>
-                                    <p data-aos="zoom-in" data-aos-delay="2400" class="description">We drive product and service innovation, improve financial performance, accelerate market speed.</p>
+                                    <h1 data-aos="zoom-in" data-aos-delay="400" class="title effect-static-text" data-translation-key="hero_item1_title"></h1>
+                                    <p data-aos="zoom-in" data-aos-delay="800" class="description" data-translation-key="hero_item1_body"></p>
 
                                     <!-- Action -->
-                                    <div data-aos="fade-up" data-aos-delay="2800" class="buttons">
+                                    <div data-aos="fade-up" data-aos-delay="1200" class="buttons">
                                         <div class="d-sm-inline-flex">
-                                            <a href="#contact" class="smooth-anchor mt-4 btn primary-button">GET IN TOUCH</a>
-                                            <a href="#video" class="smooth-anchor ml-sm-4 mt-4 btn outline-button">READ MORE</a>
+                                            <a href="#contact" class="smooth-anchor mt-4 btn primary-button" data-translation-key="common_cta_get_in_touch"></a>
+                                            <a href="#services" class="smooth-anchor ml-sm-4 mt-4 btn outline-button" data-translation-key="common_cta_more_info"></a>
                                         </div>
                                     </div>
                                 </div>
@@ -229,21 +204,21 @@
                     <div class="swiper-slide slide-center">
 
                         <!-- Media -->
-                        <img src="assets/images/bg-2.jpg" alt="Full Image" class="full-image" data-mask="40">  
+                        <img src="assets/photos/photo02.jpg" alt="Full Image" class="full-image" data-mask="40">  
 
                         <div class="slide-content row">
                             <div class="col-12 d-flex justify-content-start justify-content-md-center inner">
                                 <div class="center text-left text-md-center">
 
                                     <!-- Content -->
-                                    <h2 data-aos="zoom-in" data-aos-delay="400" class="title effect-static-text">Financial Risk</h2>
-                                    <p data-aos="zoom-in" data-aos-delay="800" class="description mr-auto ml-auto">The right outcomes depend on continuous rigor in governance, models, and processes across the finance function.</p>
+                                    <h2 data-aos="zoom-in" data-aos-delay="400" class="title effect-static-text" data-translation-key="hero_item2_title"></h2>
+                                    <p data-aos="zoom-in" data-aos-delay="800" class="description mr-auto ml-auto" data-translation-key="hero_item2_body"></p>
                                    
                                     <!-- Action -->
                                     <div data-aos="fade-up" data-aos-delay="1200" class="buttons">
                                         <div class="d-sm-inline-flex">
-                                            <a href="#contact" class="smooth-anchor mt-4 btn primary-button">GET IN TOUCH</a>
-                                            <a href="#video" class="smooth-anchor ml-sm-4 mt-4 btn outline-button">READ MORE</a>
+                                            <a href="#contact" class="smooth-anchor mt-4 btn primary-button" data-translation-key="common_cta_get_in_touch"></a>
+                                            <a href="#services" class="smooth-anchor ml-sm-4 mt-4 btn outline-button" data-translation-key="common_cta_more_info"></a>
                                         </div>
                                     </div>
                                 </div>
@@ -255,21 +230,47 @@
                     <div class="swiper-slide slide-center">
 
                         <!-- Media -->
-                        <img src="assets/images/bg-3.jpg" alt="Full Image" class="full-image" data-mask="40">     
+                        <img src="assets/photos/photo03.jpg" alt="Full Image" class="full-image" data-mask="40">     
 
                         <div class="slide-content row">
                             <div class="col-12 d-flex justify-content-start justify-content-md-end inner">
                                 <div class="right text-left">
 
                                     <!-- Content -->
-                                    <h2 data-aos="zoom-in" data-aos-delay="400" class="title effect-static-text">Audit & Assurance</h2>
-                                    <p data-aos="zoom-in" data-aos-delay="800" class="description">Our focus is to map the technologies to solve the business transformation, offering services.</p>
+                                    <h2 data-aos="zoom-in" data-aos-delay="400" class="title effect-static-text" data-translation-key="hero_item3_title"></h2>
+                                    <p data-aos="zoom-in" data-aos-delay="800" class="description" data-translation-key="hero_item3_body"></p>
 
                                     <!-- Action -->
                                     <div data-aos="fade-up" data-aos-delay="1200" class="buttons">
                                         <div class="d-sm-inline-flex">
-                                            <a href="#contact" class="smooth-anchor mt-4 btn primary-button">GET IN TOUCH</a>
-                                            <a href="#video" class="smooth-anchor ml-sm-4 mt-4 btn outline-button">READ MORE</a>
+                                            <a href="#contact" class="smooth-anchor mt-4 btn primary-button" data-translation-key="common_cta_get_in_touch"></a>
+                                            <a href="#services" class="smooth-anchor ml-sm-4 mt-4 btn outline-button" data-translation-key="common_cta_more_info"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 4 -->
+                    <div class="swiper-slide slide-center">
+
+                        <!-- Media -->
+                        <img src="assets/photos/photo04_2.jpg" alt="Full Image" class="full-image" data-mask="40">     
+
+                        <div class="slide-content row">
+                            <div class="col-12 d-flex justify-content-start justify-content-md-end inner">
+                                <div class="right text-left">
+
+                                    <!-- Content -->
+                                    <h2 data-aos="zoom-in" data-aos-delay="400" class="title effect-static-text" data-translation-key="hero_item4_title"></h2>
+                                    <p data-aos="zoom-in" data-aos-delay="800" class="description" data-translation-key="hero_item4_body"></p>
+
+                                    <!-- Action -->
+                                    <div data-aos="fade-up" data-aos-delay="1200" class="buttons">
+                                        <div class="d-sm-inline-flex">
+                                            <a href="#contact" class="smooth-anchor mt-4 btn primary-button" data-translation-key="common_cta_get_in_touch"></a>
+                                            <a href="#services" class="smooth-anchor ml-sm-4 mt-4 btn outline-button" data-translation-key="common_cta_more_info"></a>
                                         </div>
                                     </div>
                                 </div>
@@ -282,123 +283,57 @@
             </div>
         </section>
 
-        <!-- Video -->
-        <section id="video" class="section-1 highlights image-center">
-            <div class="container smaller">
-                <div class="row text-center intro">
-                    <div class="col-12">
-                        <span class="pre-title">Introduction Video</span>
-                        <h2>Advisory <span class="featured"><span>Performance</span></span></h2>
-                        <p class="text-max-800">Financial executives need to review their strategies, operating models and capabilities so that their areas can generate sound information for better decision making.</p>
-                    </div>
-                </div>
-                <div class="row text-center">
-                    <div class="col-12 gallery">
-                        <a href="https://vimeo.com/222990241" class="square-image d-flex justify-content-center align-items-center">
-                            <i class="icon bigger fas fa-play clone"></i>
-                            <i class="icon bigger fas fa-play"></i>
-                            <img src="assets/images/video-1.jpg" class="fit-image" alt="Introduction Video">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Fun Facts -->
-        <section id="funfacts" class="section-2 odd counter funfacts">
-            <video class="full-image to-bottom grayscale" data-mask="70" playsinline autoplay muted loop>
-                <source src="assets/videos/city.mp4" type="video/mp4" />
-            </video>
-            <div class="container">
-                <div class="row mb-md-5 text-center">
-                    <div class="col-12">
-                        <span class="pre-title">What are we doing</span>
-                        <h2><span class="featured"><span>Results</span></span> in Numbers</h2>
-                    </div>
-                </div>
-                <div class="row justify-content-center text-center items">
-                    <div class="col-12 col-md-6 col-lg-3 item">
-                        <div data-percent="128" class="radial">
-                            <span></span>
-                        </div>
-                        <h4>Certifications</h4>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-3 item">
-                        <div data-percent="230" class="radial">
-                            <span></span>
-                        </div>
-                        <h4>Employees</h4>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-3 item">
-                        <div data-percent="517" class="radial">
-                            <span></span>
-                        </div>
-                        <h4>Customers</h4>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-3 item">
-                        <div data-percent="94" class="radial">
-                            <span></span>
-                        </div>
-                        <h4>Countries Served</h4>
-                    </div>
-                </div>
-            </div>
-        </section>
-
         <!-- Services -->
-        <section id="services" class="section-3 odd offers">
+        <section id="services" class="section-1 offers">
             <div class="container">
                 <div class="row intro">
-                    <div class="col-12 col-md-9 align-self-center text-center text-md-left">
-                        <span class="pre-title m-auto ml-md-0">Our business areas</span>
-                        <h2>Excellence in <span class="featured"><span>Services</span></span></h2>
-                        <p>We are leaders in providing consultancy services with a set of cutting-edge technologies and a team of experienced and renowned professionals. These are some options that you can hire.</p>
-                    </div>
-                    <div class="col-12 col-md-3 align-self-end">
-                        <a href="#" class="btn mx-auto mr-md-0 ml-md-auto outline-button">SEE ALL</a>
+                    <div class="col-12 align-self-center text-center text-md-left">
+                        <span class="pre-title m-auto ml-md-0" data-translation-key="services_pre_title"></span>
+                        <h2><span data-translation-key="services_title_beginning"></span> <span class="featured" data-translation-key="services_title_highlighted_end"></span></h2>
+                        <p data-translation-key="services_body"></p>
                     </div>
                 </div>
                 <div class="row justify-content-center items">
                     <div class="col-12 col-md-6 col-lg-4 item">
                         <div class="card">
                             <i class="icon icon-organization"></i>
-                            <h4>Audit & Assurance</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                            <h4 data-translation-key="services_title_1"></h4>
+                            <p data-translation-key="services_body_1"></p>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 item">
                         <div class="card">
                             <i class="icon icon-briefcase"></i>
-                            <h4>Financial Advisory</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
-                        </div>
+                            <h4 data-translation-key="services_title_2"></h4>
+                            <p data-translation-key="services_body_2"></p>
+                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 item">
                         <div class="card">
                             <i class="icon icon-chart"></i>
-                            <h4>Analytics and M&A</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                            <h4 data-translation-key="services_title_3"></h4>
+                            <p data-translation-key="services_body_3"></p>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 item">
                         <div class="card">
                             <i class="icon icon-plane"></i>
-                            <h4>Middle Marketing</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                            <h4 data-translation-key="services_title_4"></h4>
+                            <p data-translation-key="services_body_4"></p>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 item">
                         <div class="card">
                             <i class="icon icon-globe-alt"></i>
-                            <h4>Legal Consulting</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                            <h4 data-translation-key="services_title_5"></h4>
+                            <p data-translation-key="services_body_5"></p>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 item">
                         <div class="card">
                             <i class="icon icon-drawer"></i>
-                            <h4>Regulatory Risk</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                            <h4 data-translation-key="services_title_6"></h4>
+                            <p data-translation-key="services_body_6"></p>
                         </div>
                     </div>
                 </div>
@@ -412,46 +347,26 @@
                     <div class="col-12 col-lg-8 align-self-top text-center text-md-left text">
                         <div class="row intro">
                             <div class="col-12 p-0">
-                                <span class="pre-title m-auto m-md-0">We like what we do</span>
-                                <h2><span class="featured"><span>Team</span></span> of Experts</h2>
-                                <p>Ethics and integrity are the bases on which our professionals build their careers.<br>They are fundamentals that become daily attitudes.</p>
+                                <span class="pre-title m-auto m-md-0" data-translation-key="team_pre_title"></span>
+                                <h2><span data-translation-key="team_title_beginning"></span><span class="featured" data-translation-key="team_title_highlighted_end"></span></h2>
+                                <p data-translation-key="team_body"></p>
                             </div>
                         </div>
                         <div class="row items text-left">
                             <div class="col-12 col-md-6 p-0">
                                 <div class="row item">
                                     <div class="col-4 p-0 pr-3 align-self-center">
-                                        <img src="assets/images/team-1.jpg" alt="Person" class="person">
+                                        <img src="assets/images/team/jdlo.jpg" alt="Person" class="person">
                                     </div>
                                     <div class="col-8 align-self-center text-left">
-                                        <h4>David Cooper</h4>
-                                        <p>CTO & CO-FOUNDER</p>
+                                        <h4><span data-translation-key="team_member_first_name_1"></span><br><span data-translation-key="team_member_last_name_1"></span></h4>
+                                        <p data-translation-key="team_member_job_title_1"></p>
                                         <ul class="navbar-nav social share-list ml-auto">
                                             <li class="nav-item">
-                                                <a href="#" class="nav-link"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#" class="nav-link"><i class="fas fa-envelope"></i></a>
                                             </li>
                                             <li class="nav-item">
-                                                <a href="#" class="nav-link"><i class="fab fa-twitter"></i></a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="#" class="nav-link"><i class="fab fa-linkedin-in"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>  
-                                </div>
-                                <div class="row item">
-                                    <div class="col-4 p-0 pr-3 align-self-center">
-                                        <img src="assets/images/team-2.jpg" alt="Person" class="person">
-                                    </div>
-                                    <div class="col-8 align-self-center text-left">
-                                        <h4>Emma Lopez</h4>
-                                        <p>CHIEF MARKETING</p>
-                                        <ul class="navbar-nav social share-list ml-auto">
-                                            <li class="nav-item">
-                                                <a href="#" class="nav-link"><i class="fab fa-facebook-f"></i></a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="#" class="nav-link"><i class="fab fa-twitter"></i></a>
+                                                <a href="#" class="nav-link"><i class="fas fa-phone-alt"></i></a>
                                             </li>
                                             <li class="nav-item">
                                                 <a href="#" class="nav-link"><i class="fab fa-linkedin-in"></i></a>
@@ -463,40 +378,20 @@
                             <div class="col-12 col-md-6 p-0">
                                 <div class="row item">
                                     <div class="col-4 p-0 pr-3 align-self-center">
-                                        <img src="assets/images/team-3.jpg" alt="Person" class="person">
+                                        <img src="assets/images/team/bi.jpg" alt="Person" class="person">
                                     </div>
                                     <div class="col-8 align-self-center text-left">
-                                        <h4>Oliver Jones</h4>
-                                        <p>CHIEF PROCUREMENT</p>
+                                        <h4><span data-translation-key="team_member_first_name_2"></span><br><span data-translation-key="team_member_last_name_2"></span></h4>
+                                        <p data-translation-key="team_member_job_title_2"></p>
                                         <ul class="navbar-nav social share-list ml-auto">
                                             <li class="nav-item">
-                                                <a href="#" class="nav-link"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="tel:+32493306015" class="nav-link"><i class="fas fa-envelope"></i></a>
                                             </li>
                                             <li class="nav-item">
-                                                <a href="#" class="nav-link"><i class="fab fa-twitter"></i></a>
+                                                <a href="mailto:bilal@lbpartners.be" class="nav-link"><i class="fas fa-phone-alt"></i></a>
                                             </li>
                                             <li class="nav-item">
-                                                <a href="#" class="nav-link"><i class="fab fa-linkedin-in"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>  
-                                </div>
-                                <div class="row item">
-                                    <div class="col-4 p-0 pr-3 align-self-center">
-                                        <img src="assets/images/team-4.jpg" alt="Person" class="person">
-                                    </div>
-                                    <div class="col-8 align-self-center text-left">
-                                        <h4>T. Johnson</h4>
-                                        <p>CEO & PRESIDENT</p>
-                                        <ul class="navbar-nav social share-list ml-auto">
-                                            <li class="nav-item">
-                                                <a href="#" class="nav-link"><i class="fab fa-facebook-f"></i></a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="#" class="nav-link"><i class="fab fa-twitter"></i></a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="#" class="nav-link"><i class="fab fa-linkedin-in"></i></a>
+                                                <a href="https://be.linkedin.com/in/bilal-ismail-03b2119b" class="nav-link"><i class="fab fa-linkedin-in"></i></a>
                                             </li>
                                         </ul>
                                     </div>  
@@ -507,11 +402,9 @@
                     <div data-aos="zoom-in" class="col-12 col-lg-4 align-self-end">
                         <div class="quote">
                             <div class="quote-content">
-                                <h4>President Speech</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut lacinia diam.</p>
-                                <p>Vivamus efficitur et est quis posuere. Nulla sollicitudin vulputate dui, id pretium tortor congue eu. Integer aliquet justo eu quam volutpat ullamcorper.</p>
-                                <p>Duis ut hendrerit mauris. Phasellus faucibus ut enim vel tincidunt. Nunc venenatis a dui et laoreet.</p>
-                                <h5>T. Johnson</h5>
+                                <h4 data-translation-key="team_founders_speech_title"></h4>
+                                <p data-translation-key="team_founders_speech_body"></p>
+                                <h5 data-translation-key="team_founders_speech_signature"></h5>
                             </div>
                             <i class="quote-right fas fa-quote-right"></i>
                         </div>
@@ -519,19 +412,19 @@
                 </div>
             </div>
         </section>
-
+       
         <!-- Blog -->
         <section id="blog" class="section-5 carousel showcase">
             <div class="overflow-holder">
                 <div class="container">
                     <div class="row intro">
                         <div class="col-12 col-md-9 align-self-center text-center text-md-left">
-                            <span class="pre-title m-auto m-md-0">Our editorial content</span>
-                            <h2>Latest <span class="featured"><span>News</span></span></h2>
-                            <p>Every week we publish content about what is best in the business world.</p>
+                            <span class="pre-title m-auto m-md-0" data-translation-key="study_cases_pre_title"></span>
+                            <h2><span data-translation-key="study_cases_title_beginning"></span> <span class="featured" data-translation-key="study_cases_title_highlighted_end"></span></h2>
+                            <p data-translation-key="study_cases_body"></p>
                         </div>
                         <div class="col-12 col-md-3 align-self-end">
-                            <a href="#" class="btn mx-auto mr-md-0 ml-md-auto primary-button">SEE ALL</a>
+                            <a href="#" class="btn mx-auto mr-md-0 ml-md-auto primary-button" data-translation-key="study_cases_cta_more"></a>
                         </div>
                     </div>
                     <div class="swiper-container mid-slider items" data-perview="3"> 
@@ -539,16 +432,16 @@
                             <div class="swiper-slide slide-center item">
                                 <div class="row card p-0 text-center">
                                     <div class="image-over">
-                                        <img src="assets/images/news-1.jpg" alt="Lorem ipsum">
+                                        <img src="assets/images/study_cases/study_case01.jpg" alt="Lorem ipsum">
                                     </div>
                                     <div class="card-footer d-lg-flex align-items-center justify-content-center">
-                                        <a href="#" class="d-lg-flex align-items-center"><i class="icon-user"></i>Andrea Miller</a>
-                                        <a href="#" class="d-lg-flex align-items-center"><i class="icon-clock"></i>2 Days Ago</a>
+                                        <a href="#" class="d-lg-flex align-items-center"><i class="icon-user"></i>Bilal Ismael</a>
+                                        <a href="#" class="d-lg-flex align-items-center"><i class="icon-clock"></i>Il y a 1 mois</a>
                                     </div>
                                     <div class="card-caption col-12 p-0">
                                         <div class="card-body">
                                             <a href="#">
-                                                <h4>Increasing creativity is possible for everyone</h4>
+                                                <h4>Développer sa créativité est à la portée de tous</h4>
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                             </a>
                                         </div>
@@ -558,16 +451,16 @@
                             <div class="swiper-slide slide-center item">
                                 <div class="row card p-0 text-center">
                                     <div class="image-over">
-                                        <img src="assets/images/news-2.jpg" alt="Lorem ipsum">
+                                        <img src="assets/images/study_cases/study_case02.jpg" alt="Lorem ipsum">
                                     </div>
                                     <div class="card-footer d-lg-flex align-items-center justify-content-center">
-                                        <a href="#" class="d-lg-flex align-items-center"><i class="icon-user"></i>John Smith</a>
-                                        <a href="#" class="d-lg-flex align-items-center"><i class="icon-clock"></i>9 Days Ago</a>
+                                        <a href="#" class="d-lg-flex align-items-center"><i class="icon-user"></i>Jean-David Lukandu Omobo</a>
+                                        <a href="#" class="d-lg-flex align-items-center"><i class="icon-clock"></i>Il y a 2 mois</a>
                                     </div>
                                     <div class="card-caption col-12 p-0">
                                         <div class="card-body">
                                             <a href="#">
-                                                <h4>Because market research is part of the business plan</h4>
+                                                <h4>Parce que l'étude de marché fait partie du business plan</h4>
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                             </a>
                                         </div>
@@ -577,16 +470,16 @@
                             <div class="swiper-slide slide-center item">
                                 <div class="row card p-0 text-center">
                                     <div class="image-over">
-                                        <img src="assets/images/news-3.jpg" alt="Lorem ipsum">
+                                        <img src="assets/images/study_cases/study_case03.jpg" alt="Lorem ipsum">
                                     </div>
                                     <div class="card-footer d-lg-flex align-items-center justify-content-center">
-                                        <a href="#" class="d-lg-flex align-items-center"><i class="icon-user"></i>Andrea Miller</a>
-                                        <a href="#" class="d-lg-flex align-items-center"><i class="icon-clock"></i>16 Days Ago</a>
+                                        <a href="#" class="d-lg-flex align-items-center"><i class="icon-user"></i>Bilal Ismael</a>
+                                        <a href="#" class="d-lg-flex align-items-center"><i class="icon-clock"></i>Il y a 3 mois</a>
                                     </div>
                                     <div class="card-caption col-12 p-0">
                                         <div class="card-body">
                                             <a href="#">
-                                                <h4>Working from home is now a trend</h4>
+                                                <h4>Le travail à distance est devenu une tendance</h4>
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                             </a>
                                         </div>
@@ -596,130 +489,16 @@
                             <div class="swiper-slide slide-center item">
                                 <div class="row card p-0 text-center">
                                     <div class="image-over">
-                                        <img src="assets/images/news-4.jpg" alt="Lorem ipsum">
+                                        <img src="assets/images/study_cases/study_case04.jpg" alt="Lorem ipsum">
                                     </div>
                                     <div class="card-footer d-lg-flex align-items-center justify-content-center">
-                                        <a href="#" class="d-lg-flex align-items-center"><i class="icon-user"></i>John Smith</a>
-                                        <a href="#" class="d-lg-flex align-items-center"><i class="icon-clock"></i>23 Days Ago</a>
+                                        <a href="#" class="d-lg-flex align-items-center"><i class="icon-user"></i>Jean-David Lukandu Omobo</a>
+                                        <a href="#" class="d-lg-flex align-items-center"><i class="icon-clock"></i>Il y a 4 mois</a>
                                     </div>
                                     <div class="card-caption col-12 p-0">
                                         <div class="card-body">
                                             <a href="#">
-                                                <h4>Tips for having a good relationship at work</h4>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide slide-center item">
-                                <div class="row card p-0 text-center">
-                                    <div class="image-over">
-                                        <img src="assets/images/news-5.jpg" alt="Lorem ipsum">
-                                    </div>
-                                    <div class="card-footer d-lg-flex align-items-center justify-content-center">
-                                        <a href="#" class="d-lg-flex align-items-center"><i class="icon-user"></i>David Cooper</a>
-                                        <a href="#" class="d-lg-flex align-items-center"><i class="icon-clock"></i>30 Days Ago</a>
-                                    </div>
-                                    <div class="card-caption col-12 p-0">
-                                        <div class="card-body">
-                                            <a href="#">
-                                                <h4>David Cooper tells about the opening of the new office in Baltimore</h4>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide slide-center item">
-                                <div class="row card p-0 text-center">
-                                    <div class="image-over">
-                                        <img src="assets/images/news-1.jpg" alt="Lorem ipsum">
-                                    </div>
-                                    <div class="card-footer d-lg-flex align-items-center justify-content-center">
-                                        <a href="#" class="d-lg-flex align-items-center"><i class="icon-user"></i>Andrea Miller</a>
-                                        <a href="#" class="d-lg-flex align-items-center"><i class="icon-clock"></i>2 Days Ago</a>
-                                    </div>
-                                    <div class="card-caption col-12 p-0">
-                                        <div class="card-body">
-                                            <a href="#">
-                                                <h4>Increasing creativity is possible for everyone</h4>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide slide-center item">
-                                <div class="row card p-0 text-center">
-                                    <div class="image-over">
-                                        <img src="assets/images/news-2.jpg" alt="Lorem ipsum">
-                                    </div>
-                                    <div class="card-footer d-lg-flex align-items-center justify-content-center">
-                                        <a href="#" class="d-lg-flex align-items-center"><i class="icon-user"></i>John Smith</a>
-                                        <a href="#" class="d-lg-flex align-items-center"><i class="icon-clock"></i>9 Days Ago</a>
-                                    </div>
-                                    <div class="card-caption col-12 p-0">
-                                        <div class="card-body">
-                                            <a href="#">
-                                                <h4>Because market research is part of the business plan</h4>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide slide-center item">
-                                <div class="row card p-0 text-center">
-                                    <div class="image-over">
-                                        <img src="assets/images/news-3.jpg" alt="Lorem ipsum">
-                                    </div>
-                                    <div class="card-footer d-lg-flex align-items-center justify-content-center">
-                                        <a href="#" class="d-lg-flex align-items-center"><i class="icon-user"></i>Andrea Miller</a>
-                                        <a href="#" class="d-lg-flex align-items-center"><i class="icon-clock"></i>16 Days Ago</a>
-                                    </div>
-                                    <div class="card-caption col-12 p-0">
-                                        <div class="card-body">
-                                            <a href="#">
-                                                <h4>Working from home is now a trend</h4>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide slide-center item">
-                                <div class="row card p-0 text-center">
-                                    <div class="image-over">
-                                        <img src="assets/images/news-4.jpg" alt="Lorem ipsum">
-                                    </div>
-                                    <div class="card-footer d-lg-flex align-items-center justify-content-center">
-                                        <a href="#" class="d-lg-flex align-items-center"><i class="icon-user"></i>John Smith</a>
-                                        <a href="#" class="d-lg-flex align-items-center"><i class="icon-clock"></i>23 Days Ago</a>
-                                    </div>
-                                    <div class="card-caption col-12 p-0">
-                                        <div class="card-body">
-                                            <a href="#">
-                                                <h4>Tips for having a good relationship at work</h4>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide slide-center item">
-                                <div class="row card p-0 text-center">
-                                    <div class="image-over">
-                                        <img src="assets/images/news-5.jpg" alt="Lorem ipsum">
-                                    </div>
-                                    <div class="card-footer d-lg-flex align-items-center justify-content-center">
-                                        <a href="#" class="d-lg-flex align-items-center"><i class="icon-user"></i>David Cooper</a>
-                                        <a href="#" class="d-lg-flex align-items-center"><i class="icon-clock"></i>30 Days Ago</a>
-                                    </div>
-                                    <div class="card-caption col-12 p-0">
-                                        <div class="card-body">
-                                            <a href="#">
-                                                <h4>David Cooper tells about the opening of the new office in Baltimore</h4>
+                                                <h4>Game Changer: la loyauté et l'engagement des employés</h4>
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                             </a>
                                         </div>
@@ -737,9 +516,9 @@
             <div class="container smaller">
                 <div class="row">
                     <div class="col-12 col-md-6 m-md-0 intro">
-                        <span class="pre-title m-0">Newsletter</span>
-                        <h2><span class="featured"><span>Know</span></span> First</h2>
-                        <p>Follow closely and receive content about our company and the news of the current market.</p>
+                        <span class="pre-title m-0" data-translation-key="newsletter_pre_title"></span>
+                        <h2><span data-translation-key="newsletter_title_beginning"></span><span class="featured" data-translation-key="newsletter_title_highlighted_end"></span></h2>
+                        <p data-translation-key="newsletter_body"></p>
                     </div>
                     <div class="col-12 col-md-6">
                         <form action="php/form.php" id="nexgen-subscribe" class="row m-auto items">
@@ -749,13 +528,13 @@
                             <!-- Remove this field if you want to disable recaptcha -->
 
                             <div class="col-12 mt-0 input-group align-self-center item">
-                                <input type="text" name="name" class="form-control field-name" placeholder="Name">
+                                <input type="text" name="name" class="form-control field-name" placeholder-translation-key="newsletter_form_name_placeholder">
                             </div>
                             <div class="col-12 input-group align-self-center item">
-                                <input type="email" name="email" class="form-control field-email" placeholder="Email">
+                                <input type="email" name="email" class="form-control field-email" placeholder-translation-key="newsletter_form_email_address_placeholder">
                             </div>
                             <div class="col-12 input-group align-self-center item">
-                                <a data-aos="zoom-in" class="btn primary-button">SUBSCRIBE</a>
+                                <a data-aos="zoom-in" class="btn primary-button" data-translation-key="newsletter_form_cta_subscribe"></a>
                             </div>
                             <div class="col-12 item">
                                 <span class="form-alert mt-3 mb-0"></span>
@@ -766,16 +545,75 @@
             </div>
         </section>
 
+         <!-- Testimonials -->
+         <section id="testimonials" class="section-5 carousel testimonials">
+            <div class="overflow-holder">
+                <div class="container">
+                    <div class="row text-center intro">
+                        <div class="col-12">
+                            <span class="pre-title" data-translation-key="testimonials_pre_title"></span>
+                            <h2><span data-translation-key="testimonials_title_beginning"></span> <span class="featured" data-translation-key="testimonials_title_highlighted_end"></span></h2>
+                            <p class="text-max-800" data-translation-key="testimonials_body"></p>
+                        </div>
+                    </div>
+                    <div class="swiper-container mid-slider items" data-perview="3"> 
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide slide-center item">
+                                <div class="row card">
+                                    <div class="col-12">
+                                            <img src="assets/images/testimonials/testimonial01.png" alt="Logo" class="logo">
+                                            <p>Praesent volutpat justo sit amet elementum malesuada. Praesent sagittis augue justo, in accumsan orci rhoncus at pellentesque.</p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                            <br>
+                                            <b>Rachid A.</b>
+                                            <p>Fondateur de Switchy</p>
+                                        <i class="quote-right fas fa-quote-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide slide-center item">
+                                <div class="row card">
+                                    <div class="col-12">
+                                            <img src="assets/images/testimonials/testimonial01.png" alt="Logo" class="logo">
+                                            <p>Praesent volutpat justo sit amet elementum malesuada. Praesent sagittis augue justo, in accumsan orci rhoncus at pellentesque.</p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                            <br>
+                                            <b>Rachid A.</b>
+                                            <p>Fondateur de Switchy</p>
+                                        <i class="quote-right fas fa-quote-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide slide-center item">
+                                <div class="row card">
+                                    <div class="col-12">
+                                            <img src="assets/images/testimonials/testimonial01.png" alt="Logo" class="logo">
+                                            <p>Praesent volutpat justo sit amet elementum malesuada. Praesent sagittis augue justo, in accumsan orci rhoncus at pellentesque.</p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                            <br>
+                                            <b>Rachid A.</b>
+                                            <p>Fondateur de Switchy</p>
+                                        <i class="quote-right fas fa-quote-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
         <!-- Contact -->
-        <section id="contact" class="section-7 form contact">
+        <section id="contact" class="section-6 odd form contact">
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-8 pr-md-5 align-self-center text">
                         <div class="row intro">
                             <div class="col-12 p-0">
-                                <span class="pre-title m-0">Send a message</span>
-                                <h2>Get in <span class="featured"><span>Touch</span></span></h2>
-                                <p>We will respond to your message as soon as possible.</p>
+                                <span class="pre-title m-0" data-translation-key="contact_pre_title"></span>
+                                <h2><span data-translation-key="contact_title_beginning"></span> <span class="featured" data-translation-key="contact_title_highlighted_end"></span></h2>
+                                <p data-translation-key="contact_body"></p>
                             </div>
                         </div>
                         <div class="row">
@@ -788,35 +626,35 @@
 
                                     <div class="row form-group-margin">
                                         <div class="col-12 col-md-6 m-0 p-2 input-group">
-                                            <input type="text" name="name" class="form-control field-name" placeholder="Name">
+                                            <input type="text" name="name" class="form-control field-name" placeholder-translation-key="contact_form_name_placeholder">
                                         </div>
                                         <div class="col-12 col-md-6 m-0 p-2 input-group">
-                                            <input type="email" name="email" class="form-control field-email" placeholder="Email">
+                                            <input type="email" name="email" class="form-control field-email" placeholder-translation-key="contact_form_email_address_placeholder">
                                         </div>
                                         <div class="col-12 col-md-6 m-0 p-2 input-group">
-                                            <input type="text" name="phone" class="form-control field-phone" placeholder="Phone">
+                                            <input type="text" name="phone" class="form-control field-phone" placeholder-translation-key="contact_form_phone_number_placeholder">
                                         </div>
                                         <div class="col-12 col-md-6 m-0 p-2 input-group">
                                             <i class="icon-arrow-down mr-3"></i>
                                             <select name="info" class="form-control field-info">
-                                                <option value="" selected disabled>More Info</option>
-                                                <option>Audit & Assurance</option>
-                                                <option>Financial Advisory</option>
-                                                <option>Analytics and M&A</option>
-                                                <option>Middle Marketing</option>
-                                                <option>Legal Consulting</option>
-                                                <option>Regulatory Risk</option>
-                                                <option>Other</option>
+                                                <option value="" selected disabled data-translation-key="contact_form_subject"></option>
+                                                <option data-translation-key="contact_form_subject_option_1"></option>
+                                                <option data-translation-key="contact_form_subject_option_2"></option>
+                                                <option data-translation-key="contact_form_subject_option_3"></option>
+                                                <option data-translation-key="contact_form_subject_option_4"></option>
+                                                <option data-translation-key="contact_form_subject_option_5"></option>
+                                                <option data-translation-key="contact_form_subject_option_6"></option>
+                                                <option data-translation-key="contact_form_subject_option_7"></option>
                                             </select>
                                         </div>
                                         <div class="col-12 m-0 p-2 input-group">
-                                            <textarea name="message" class="form-control field-message" placeholder="Message"></textarea>
+                                            <textarea name="message" class="form-control field-message" placeholder-translation-key="contact_form_message_placeholder"></textarea>
                                         </div>
                                         <div class="col-12 col-12 m-0 p-2 input-group">
                                             <span class="form-alert"></span>
                                         </div>
                                         <div class="col-12 input-group m-0 p-2">
-                                            <a class="btn primary-button">SEND</a>
+                                            <a class="btn primary-button" data-translation-key="common_cta_submit"></a>
                                         </div>
                                     </div>
                                 </form>
@@ -825,33 +663,41 @@
                     </div>
                     <div class="col-12 col-md-4">
                         <div class="contacts">
-                            <h4>Example Inc.</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            <p>Praesent diam lacus, dapibus sed imperdiet consectetur.</p>
+                            <h4 data-translation-key="common_company_name"></h4>
+                            <p>Vous n'êtes qu'à un pas d'offrir les bonnes solutions à votre projet.</p>
                             <ul class="navbar-nav">
                                 <li class="nav-item">
                                     <a href="#" class="nav-link">
                                         <i class="fas fa-phone-alt mr-2"></i>
-                                        +1 (305) 1234-5678
+                                        <span data-translation-key="contact_phone_number"></span>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="#" class="nav-link">
                                         <i class="fas fa-envelope mr-2"></i>
-                                        hello@example.com
+                                        <span data-translation-key="contact_email_address"></span>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="#" class="nav-link">
                                         <i class="fas fa-map-marker-alt mr-2"></i>
-                                        Main Avenue, 987
+                                        <span data-translation-key="contact_office_address"></span>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="mt-2 btn outline-button" data-toggle="modal" data-target="#map">VIEW MAP</a>
+                                    <a href="#" class="mt-2 btn outline-button" data-toggle="modal" data-target="#map" data-translation-key="common_cta_view_map"></a>
                                 </li>
                             </ul>
+        
                         </div>
+                        <br>
+                        <b data-translation-key="common_legal_company_name"></b>
+                        <br><span data-translation-key="common_company_vat"></span>
+                        <br><span data-translation-key="common_company_address_street_and_house"></span>
+                        <br><span data-translation-key="common_company_address_city_country"></span>
+                        <p data-translation-key="common_company_tagline"></p>
+                        <a href="#"><span data-translation-key="document_privacy_policy"></span></a>
+                        <br><a href="#"><span data-translation-key="document_terms_and_conditions"></span></a>
                     </div>
                 </div>
             </div>
@@ -859,229 +705,22 @@
         
         <!-- Footer -->
         <footer>
-
-            <!-- Footer [content] -->
-            <section id="footer" class="odd footer offers">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 col-lg-3 footer-left">
-
-                            <!-- Navbar Brand-->
-                            <a class="navbar-brand" href="/">
-                                <span class="brand">
-                                    <span class="featured">
-                                        <span class="first">NEX</span>
-                                    </span>
-                                    <span class="last">GEN</span>
-                                </span>
-                                
-                                <!-- 
-                                    Custom Logo
-                                    <img src="assets/images/logo.svg" alt="NEXGEN">
-                                -->
-                            </a>
-                            <p>A Functional HTML Template<br>for Corporate & Business.</p>
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">
-                                        <i class="fas fa-phone-alt mr-2"></i>
-                                        +1 (305) 1234-5678
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">
-                                        <i class="fas fa-envelope mr-2"></i>
-                                        hello@example.com
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">
-                                        <i class="fas fa-map-marker-alt mr-2"></i>
-                                        Main Avenue, 987
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#contact" class="mt-4 btn outline-button smooth-anchor">GET IN TOUCH</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-12 col-lg-9 p-0 footer-right">
-                            <div class="row items">
-                                <div class="col-12 col-lg-4 item">
-                                    <div class="card">
-                                        <h4>About</h4>
-                                        <a href="#"><i class="icon-arrow-right"></i>The Company</a>
-                                        <a href="#"><i class="icon-arrow-right"></i>Institutional</a>
-                                        <a href="#"><i class="icon-arrow-right"></i>Social & Events</a>
-                                        <a href="#"><i class="icon-arrow-right"></i>Innovation</a>
-                                        <a href="#"><i class="icon-arrow-right"></i>Environment</a>
-                                        <a href="#"><i class="icon-arrow-right"></i>Technology</a>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-lg-4 item">
-                                    <div class="card">
-                                        <h4>Services</h4>
-                                        <a href="#"><i class="icon-arrow-right"></i>Audit & Assurance</a>
-                                        <a href="#"><i class="icon-arrow-right"></i>Financial Advisory</a>
-                                        <a href="#"><i class="icon-arrow-right"></i>Analytics M&A</a>
-                                        <a href="#"><i class="icon-arrow-right"></i>Middle Marketing</a>
-                                        <a href="#"><i class="icon-arrow-right"></i>Legal Consulting</a>
-                                        <a href="#"><i class="icon-arrow-right"></i>Regulatory Risk</a>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-lg-4 item">
-                                    <div class="card">
-                                        <h4>Support</h4>
-                                        <a href="#"><i class="icon-arrow-right"></i>Responsibility</a>
-                                        <a href="#"><i class="icon-arrow-right"></i>Terms of Use</a>
-                                        <a href="#"><i class="icon-arrow-right"></i>About Cookies</a>
-                                        <a href="#"><i class="icon-arrow-right"></i>Privacy Policy</a>
-                                        <a href="#"><i class="icon-arrow-right"></i>Accessibility</a>
-                                        <a href="#"><i class="icon-arrow-right"></i>Information</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
+            
             <!-- Copyright -->
             <section id="copyright" class="p-3 odd copyright">
                 <div class="container">
                     <div class="row">
                         <div class="col-12 col-md-6 p-3 text-center text-lg-left">
-                            <p>Enjoy the low price. We are tracking any intention of piracy.</p>
-                            <!--
-                                Suggestion: Replace the text above with a description of your website.
-                             -->
+                            <p><span data-translation-key="backlink"></span><a href="https://www.switchy.be/" target="_blank">Switchy</a></p>
                         </div>
                         <div class="col-12 col-md-6 p-3 text-center text-lg-right">
-                            <p>© 2021 NEXGEN is Proudly Powered by <a href="https://themeforest.net/user/codingsdev" target="_blank">Codings</a>.</p>
+                            <p data-translation-key="copyright"></p>
                         </div>
                     </div>
                 </div>
             </section>
 
         </footer>
-
-        <!-- Modal [search] -->
-        <div id="search" class="p-0 modal fade" role="dialog" aria-labelledby="search" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-slideout" role="document">
-                <div class="modal-content full">
-                    <div class="modal-header" data-dismiss="modal">
-                        <i class="icon-close fas fa-arrow-right"></i>
-                    </div>
-                    <div class="modal-body">
-                        <form class="row">
-                            <div class="col-12 p-0 align-self-center">
-                                <div class="row">
-                                    <div class="col-12 p-0">
-                                        <h2>What are you looking for?</h2>
-                                        <div class="badges">
-                                            <span class="badge"><a href="#">Consulting</a></span>
-                                            <span class="badge"><a href="#">Audit</a></span>
-                                            <span class="badge"><a href="#">Assurance</a></span>
-                                            <span class="badge"><a href="#">Advisory</a></span>
-                                            <span class="badge"><a href="#">Financial</a></span>
-                                            <span class="badge"><a href="#">Capital Markets</a></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 p-0 input-group">
-                                        <input type="text" class="form-control" placeholder="Enter Keywords">
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 p-0 input-group align-self-center">
-                                        <button class="btn primary-button">SEARCH</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Modal [sign] -->
-        <div id="sign" class="p-0 modal fade" role="dialog" aria-labelledby="sign" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-slideout" role="document">
-                <div class="modal-content full">
-                    <div class="modal-header" data-dismiss="modal">
-                        <i class="icon-close fas fa-arrow-right"></i>
-                    </div>
-                    <div class="modal-body">
-                        <form action="/" class="row">
-                            <div class="col-12 p-0 align-self-center">
-                                <div class="row">
-                                    <div class="col-12 p-0 pb-3">
-                                        <h2>Sign In</h2>
-                                        <p>Don't have an account? <a href="#" class="primary-color" data-toggle="modal" data-target="#register">Register now</a>.</p>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 p-0 input-group">
-                                        <input type="email" class="form-control" placeholder="Email" required>
-                                    </div>
-                                    <div class="col-12 p-0 input-group">
-                                        <input type="password" class="form-control" placeholder="Password" required>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 p-0 input-group align-self-center">
-                                        <button class="btn primary-button">SIGN IN</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Modal [register] -->
-        <div id="register" class="p-0 modal fade" role="dialog" aria-labelledby="register" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-slideout" role="document">
-                <div class="modal-content full">
-                    <div class="modal-header" data-dismiss="modal">
-                        <i class="icon-close fas fa-arrow-right"></i>
-                    </div>
-                    <div class="modal-body">
-                        <form action="/" class="row">
-                            <div class="col-12 p-0 align-self-center">
-                                <div class="row">
-                                    <div class="col-12 p-0 pb-3">
-                                        <h2>Register</h2>
-                                        <p>Have an account? <a href="#" class="primary-color" data-toggle="modal" data-target="#sign">Sign In</a>.</p>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 p-0 input-group">
-                                        <input type="text" class="form-control" placeholder="Name" required>
-                                    </div>
-                                    <div class="col-12 p-0 input-group">
-                                        <input type="email" class="form-control" placeholder="Email" required>
-                                    </div>
-                                    <div class="col-12 p-0 input-group">
-                                        <input type="password" class="form-control" placeholder="Password" required>
-                                    </div>
-                                    <div class="col-12 p-0 input-group">
-                                        <input type="password" class="form-control" placeholder="Confirm Password" required>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 p-0 input-group align-self-center">
-                                        <button class="btn primary-button">REGISTER</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
 
         <!-- Modal [map] -->
         <div id="map" class="p-0 modal fade" role="dialog" aria-labelledby="map" aria-hidden="true">
@@ -1091,7 +730,7 @@
                         <i class="icon-close fas fa-arrow-right"></i>
                     </div>
                     <div class="modal-body p-0">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2970.123073808986!2d12.490042215441486!3d41.89021017922119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f61b6532013ad%3A0x28f1c82e908503c4!2sColiseu!5e0!3m2!1spt-BR!2sbr!4v1594148229878!5m2!1spt-BR!2sbr" width="600" height="450" aria-hidden="false" tabindex="0"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2516.445134289748!2d4.3122387157844475!3d50.89697916297007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c18730ee2177%3A0x7b4805617a0b009f!2sKon.%20Astridlaan%2059b%2C%201780%20Wemmel!5e0!3m2!1sen!2sbe!4v1671409927849!5m2!1sen!2sbe" width="600" height="450" aria-hidden="false" tabindex="0"></iframe>
                     </div>
                 </div>
             </div>
@@ -1111,6 +750,29 @@
                             </div>
                             <div class="contacts p-0 col-12 text-center">
                                 <!-- Append [navbar] -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal [language] -->
+        <div id="language" class="p-0 modal fade" role="dialog" aria-labelledby="language" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-slideout" role="document">
+                <div class="modal-content full">
+                    <div class="modal-header" data-dismiss="modal">
+                        <i class="icon-close fas fa-arrow-right"></i>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-12 p-0 align-self-center">
+                                <h4 data-translation-key="languages_picker_title"></h4>
+                                        <ul class="navbar-nav">
+                                            <li class="nav-item" id="locale-fr">Français</li>
+                                            <li class="nav-item" id="locale-nl">Nederlands</li>
+                                            <li class="nav-item" id="locale-en">English</li>
+                                        </ul>
                             </div>
                         </div>
                     </div>
