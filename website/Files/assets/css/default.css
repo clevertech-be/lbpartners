@@ -2,10 +2,6 @@
 *
 * [Default Stylesheet]
 *
-* Theme    : NEXGEN
-* Version  : 1.0
-* Author   : Codings
-* Support  : codings.dev
 * 
 ----------------------------------------------*/
 
@@ -29,6 +25,7 @@
     --color-burgundy: #8F002A;
     --color-burgundy-l: #C3003B;
     --color-green: #008F64;
+    --color-green-l: #00C288;
     --color-black: #111111;
     --h1-font: 'Cormorant SC', serif;
     --h1-size: 4.5rem;
@@ -46,7 +43,7 @@
     --nav-top-bg-color: var(--color-black);
     --nav-sub-bg-color: var(--color-black);
     --nav-holder-bg-color: var(--color-black);
-    --nav-brand-height: 35px;
+    --nav-brand-height: 40px;
     --nav-item-color: #f9f9f9;
     --hero-bg-color: #111117;
     --footer-brand-height: 80px;
@@ -66,7 +63,7 @@
     --primary-l-color: rgba(0, 0, 0, .25);
     --secondary-l-color: rgba(255, 255, 255, 0.35);
 
-    --valid-color: var(--color-green); /*#007a4d;*/
+    --valid-color: var(--color-green-l); /*#007a4d;*/
     --invalid-color: #e34f4f;
 
     --primary-bg-color: #f9f9f9;

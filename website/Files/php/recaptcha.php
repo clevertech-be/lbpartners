@@ -2,8 +2,8 @@
 $reCAPTCHA  = filter_input( INPUT_POST, 'reCAPTCHA', FILTER_SANITIZE_STRING );
 $captchaUrl = 'https://www.google.com/recaptcha/api/siteverify';
 
-$captchaData = array( // Put your secret key here
-    'secret'   => '6Lf-NwEVAAAAABUaF-yzXnrPVx7TX19aO8PeOuTw',
+$captchaData = array(
+    'secret'   => '6LegxZAjAAAAAIW0DySstHd2R37QY3cCM-BFBHLh',
     'response' => $reCAPTCHA
 );
 

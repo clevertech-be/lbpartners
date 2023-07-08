@@ -1,6 +1,6 @@
 <?php
-$recipient = 'your@email.com'; // Enter the recipient's email address here.
-$subject   = 'New contact sent from the website.'; // Enter the subject of the email here.
+$recipient = 'rachid@switchy.be';
+$subject   = 'Nouveau message via lbpartners.be';
 $success   = 'Your message was sent successful. Thanks.';
 $error     = 'Sorry. We were unable to send your message.';
 $invalid   = 'Validation errors occurred. Please confirm the fields and submit it again.';
