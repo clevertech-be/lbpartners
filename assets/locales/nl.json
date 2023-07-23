@@ -1,12 +1,14 @@
 {
-  "current-locale": "DEBUG",
+  "current-locale": "NL",
   "navbar_text": "Nos conseillers répondent à vos questions du lundi au vendredi, de 9h à 18h.",
   "menu_item1": "Accueil",
   "menu_item2": "Services",
   "menu_item3": "Équipe",
   "menu_item4": "Témoignages",
   "menu_item5": "Cas d'étude",
+
   "languages_picker_title": "Choisissez une langue",
+
   "hero_item1_title": "Fiscalité des entreprises",
   "hero_item1_body": "Sed in orci nunc. Donec sit amet ante et dolor commodo venenatis vitae nec odio.",
   "hero_item2_title": "Conseils juridiques",
@@ -15,6 +17,7 @@
   "hero_item3_body": "Notre équipe vous accompagne et vous assiste lors de la création de votre entreprise et tout au long de votre activité.",
   "hero_item4_title": "Gestion du personnel",
   "hero_item4_body": "Nos spécialistes RH vous aident à recruter de nouveaux collaborateurs et s’occupent de la gestion salariale de votre entreprise en vous garantissant le respect de la législation sociale en vigueur.",
+
   "services_pre_title": "Nos domaines d'expertise",
   "services_title_beginning": "L'excellence dans",
   "services_title_highlighted_end": "les services",
@@ -31,6 +34,7 @@
   "services_body_5": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
   "services_title_6": "Gestion des risques",
   "services_body_6": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+
   "team_pre_title": "Notre équipe d'experts",
   "team_title_beginning": "Rencontrez-",
   "team_title_highlighted_end": "nous",
@@ -44,11 +48,13 @@
   "team_member_first_name_2": "Bilal",
   "team_member_last_name_2": "Ismail",
   "team_member_job_title_2": "Fiscal advisor & co-founder",
+
   "study_cases_pre_title": "Nos cas d'étude",
   "study_cases_title_beginning": "Leurs projets,",
   "study_cases_title_highlighted_end": "notre expertise",
   "study_cases_body": "Chaque mois, nous publions une étude de cas afin de vous faire découvrir comment notre expertise a contribué au développement et à la croissance de ceux qui nous ont fait confiance.",
-  "study_cases_cta_more": "Découvrez nos cas d'étude",
+  "study_cases_cta_more": "Nos cas d'étude",
+
   "newsletter_pre_title": "Newsletter",
   "newsletter_title_beginning": "Apprenez-en ",
   "newsletter_title_highlighted_end": "plus",
@@ -56,15 +62,18 @@
   "newsletter_form_name_placeholder": "Nom",
   "newsletter_form_email_address_placeholder": "Adresse e-mail",
   "newsletter_form_cta_subscribe": "S'abonner",
+
   "testimonials_pre_title": "Témoignages de nos clients",
   "testimonials_title_beginning": "Ils nous font déjà",
   "testimonials_title_highlighted_end": "confiance",
   "testimonials_body": "Nous travaillons intensément à la recherche d'idéaux et de solutions qui peuvent avoir un effet positif sur la vie de nos clients. C'est ce qui nous anime et nous sommes sensibles à toute cette reconnaissance.",
-  "testimonials_cta_more": "Découvrez nos cas d'étude",
+  "testimonials_cta_more": "Nos cas d'étude",
+
   "contact_pre_title": "Écrivez-nous",
   "contact_title_beginning": "Dites-nous ",
   "contact_title_highlighted_end": "tout",
   "contact_body": "Dites-nous en plus sur votre situation et vos projets. Nous accorderons une attention particulière à votre message et vous répondrons dans les meilleurs délais.",
+
   "contact_form_name_placeholder": "Nom",
   "contact_form_email_address_placeholder": "Adresse e-mail",
   "contact_form_phone_number_placeholder": "Numéro de téléphone",
@@ -77,24 +86,43 @@
   "contact_form_subject_option_5": "Conseil juridique",
   "contact_form_subject_option_6": "Gestion des risques",
   "contact_form_subject_option_7": "Autre",
-  "contact_form_success": "Votre message a été envoyé avec succès. Merci.",
-  "contact_form_invalid": "Des erreurs de validation sont survenues. Veuillez confirmer les champs et soumettre à nouveau.",
-  "contact_form_error": "Sorry. Nous n'avons pas pu envoyer votre message.",
+  "contact_form_succes": "Uw bericht is succesvol verzonden. Bedankt.",
+  "contact_form_invalid": "Er zijn validatiefouten opgetreden. Gelieve de velden te bevestigen en opnieuw in te dienen.",
+  "contact_form_error": "Sorry. We konden uw bericht niet verzenden.",
+
   "contact_phone_number": "+32 2 522 08 13",
   "contact_email_address": "contact@lbpartners.be",
   "contact_office_address": "Av. Reine Astrid 59b",
+
   "document_privacy_policy": "Politique de confidentialité",
   "document_terms_and_conditions": "Conditions générales d'utilisation",
   "copyright": "© 2023 Legal and Business Partners SRL - Tous droits réservés.",
   "backlink": "Fièrement réalisé par ",
+
   "common_company_name": "Legal & Business Partners",
   "common_legal_company_name": "Legal and Business Partners SRL",
   "common_company_vat": "BE 0792.288.476",
   "common_company_address_street_and_house": "Av. Reine Astrid 59b",
   "common_company_address_city_country": "1780 Wemmel, Belgique",
   "common_company_tagline": "Votre partenaire de confiance pour la croissance.",
+
   "common_cta_get_in_touch": "Prenez contact",
   "common_cta_more_info": "En savoir plus",
   "common_cta_view_map": "Afficher sur Google Maps ©",
-  "common_cta_submit": "Soumettre"
+  "common_cta_submit": "Soumettre",
+
+  "cookies_description": "Wij gebruiken cookies om u een betere browse-ervaring te bieden, inhoud en advertenties te personaliseren, functies voor sociale media aan te bieden en ons verkeer te analyseren. Lees meer over hoe wij cookies gebruiken en hoe u ze kunt controleren door te klikken op Cookie-instellingen. U stemt in met onze cookies als u deze website blijft gebruiken.",
+  "cookies_settings": "Cookie-instellingen",
+  "cookies_accept": "Cookies accepteren",
+  "cookies_statement": "Onze cookieverklaring",
+  "cookies_sauvegarder": "Instellingen opslaan",
+  "cookies_always_on": "Altijd aan",
+  "cookies_cookie_essential_title": "Noodzakelijke website cookies",
+  "cookies_cookie_essential_desc": "Noodzakelijke cookies helpen een website bruikbaar te maken door basisfuncties zoals paginanavigatie en toegang tot beveiligde delen van de website mogelijk te maken. Zonder deze cookies kan de website niet goed functioneren.",
+  "cookies_cookie_performance_title": "Prestatiecookies",
+  "cookies_cookie_performance_desc": "Deze cookies worden gebruikt om de prestaties en functionaliteit van onze websites te verbeteren, maar zijn niet essentieel voor het gebruik ervan. Ze slaan bijvoorbeeld uw voorkeurstaal op of de regio waarin u zich bevindt.",
+  "cookies_cookie_analytics_titel": "Analytics cookies",
+  "cookies_cookie_analytics_desc": "Wij gebruiken analytische cookies om ons te helpen meten hoe gebruikers omgaan met de inhoud van de website, wat ons helpt onze websites en applicatie voor u aan te passen om uw ervaring te verbeteren",
+  "cookies_cookie_marketing_title": "Marketing cookies",
+  "cookies_cookie_marketing_desc": "Deze cookies worden gebruikt om reclameboodschappen relevanter te maken voor u en uw interesses. De bedoeling is om advertenties weer te geven die relevant en aantrekkelijk zijn voor de individuele gebruiker en daardoor waardevoller zijn voor uitgevers en externe adverteerders."
 }
