@@ -2251,6 +2251,11 @@ header .navbar-expand .navbar-brand .featured .first {
   margin: 0;
 }
 
+.pointer:hover {
+  cursor: pointer;
+  color: var(--primary-color);
+}
+
 .menu .dropdown .dropdown-menu {
   display: none;
   width: 100%;
