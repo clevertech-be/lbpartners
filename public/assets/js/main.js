@@ -811,82 +811,15 @@ jQuery(function ($) {
     form.submit(function (e) {
       e.preventDefault();
 
-      if ($('input[name="reCAPTCHA"]').length) {
-        let reCAPTCHA = $('input[name="reCAPTCHA"]');
-
-        grecaptcha.ready(function () {
-          grecaptcha
-            .execute(reCAPTCHA.data("key"), { action: "create_comment" })
-            .then(function (token) {
-              reCAPTCHA.val(token);
-            });
-        });
-      }
-
-      var url = form.attr("action");
-
-      $.ajax({
-        type: "POST",
-        url: url,
-        data: form.serialize(),
-        success: function (response) {
-          try {
-            JSON.parse(response);
-            var obj = JSON.parse(response);
-
-            if (obj.status == "success") {
-              setTimeout(function () {
-                btn.removeClass("effect-motion-bg");
-                input.val("").removeClass("invalid").removeClass("valid");
-                alert
-                  .text(window.languagesResources["contact_form_success"])
-                  .removeClass("invalid")
-                  .addClass("valid")
-                  .fadeIn();
-              }, 1200);
-            } else if (obj.status == "invalid") {
-              setTimeout(function () {
-                btn.removeClass("effect-motion-bg");
-                alert
-                  .text(window.languagesResources["contact_form_invalid"])
-                  .removeClass("valid")
-                  .addClass("invalid")
-                  .fadeIn();
-              }, 1200);
-
-              input.each(function () {
-                let input_name = $(this).attr("name");
-
-                if (obj.fields[input_name] == true) {
-                  $(ID + " .field-" + input_name)
-                    .removeClass("valid")
-                    .addClass("invalid");
-                } else {
-                  $(ID + " .field-" + input_name)
-                    .removeClass("invalid")
-                    .addClass("valid");
-                }
-              });
-            } else {
-              btn.removeClass("effect-motion-bg");
-              input.val("").removeClass("invalid").removeClass("valid");
-              alert
-                .text(window.languagesResources["contact_form_error"])
-                .removeClass("valid")
-                .addClass("invalid")
-                .fadeIn();
-            }
-          } catch (e) {
-            btn.removeClass("effect-motion-bg");
-            input.val("").removeClass("invalid").removeClass("valid");
-            alert
-              .text("Sorry. We were unable to send your message.")
-              .removeClass("valid")
-              .addClass("invalid")
-              .fadeIn();
-          }
-        },
-      });
+      setTimeout(function () {
+        btn.removeClass("effect-motion-bg");
+        input.val("").removeClass("invalid").removeClass("valid");
+        alert
+          .text(window.languagesResources["contact_form_success"])
+          .removeClass("invalid")
+          .addClass("valid")
+          .fadeIn();
+      }, 1200);
     });
   }
 
