@@ -106,7 +106,7 @@ jQuery(function ($) {
     };
 
     gdprCookieNotice({
-      locale: window.localStorage.getItem("current-locale") || "en", // This is the default value
+      locale: window.localStorage.getItem("current-locale") || "fr", // This is the default value
       timeout: 2000, // Time until the cookie bar appears
       expiration: 30, // This is the default value, in days
       domain: window.location.hostname, // If you run the same cookie notice on all subdomains, define the main domain starting with a .
@@ -176,10 +176,10 @@ jQuery(function ($) {
     team_founders_speech_signature: "Bilal & Jean-David",
     team_member_first_name_1: "Jean-David",
     team_member_last_name_1: "Lukandu",
-    team_member_job_title_1: "Legal advisor & co-founder",
+    team_member_job_title_1: "Conseiller financier & co-founder",
     team_member_first_name_2: "Bilal",
     team_member_last_name_2: "Ismail",
-    team_member_job_title_2: "Fiscal advisor & co-founder",
+    team_member_job_title_2: "Conseiller juridique & co-founder",
     study_cases_pre_title: "Nos cas d'étude",
     study_cases_title_beginning: "Leurs projets,",
     study_cases_title_highlighted_end: "notre expertise",
@@ -523,7 +523,7 @@ jQuery(function ($) {
       const potentialLng = (
         navigator.languages.find((language) => {
           const isoLng = language.slice(0, 2);
-          return isoLng == "fr" || isoLng == "nl" || isoLng == "en";
+          return isoLng == "fr";
         }) ||
         navigator.userLanguage ||
         navigator.language
@@ -538,14 +538,6 @@ jQuery(function ($) {
     }
     $(document).on("click", "#locale-fr", function () {
       changeLanguage("fr");
-      window.location.reload();
-    });
-    $(document).on("click", "#locale-nl", function () {
-      changeLanguage("nl");
-      window.location.reload();
-    });
-    $(document).on("click", "#locale-en", function () {
-      changeLanguage("en");
       window.location.reload();
     });
   });
