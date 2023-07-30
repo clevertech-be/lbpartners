@@ -1,7 +1,7 @@
 # Lb Partners
 
-[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://https://github.com/clevertech-devs/lbpartners/blob/master/LICENSE)
-[![GitHub last commit](https://img.shields.io/github/last-commit/google/skia.svg)](https://https://github.com/clevertech-devs/lbpartners/commits/master)
+[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/clevertech-devs/lbpartners/blob/master/LICENSE)
+[![GitHub last commit](https://img.shields.io/github/last-commit/google/skia.svg)](https://github.com/clevertech-devs/lbpartners/commits/master)
 
 <br />
 <p align="center">
@@ -9,14 +9,14 @@
 
   <p align="center">
     <br />
-    <a href="https://https://github.com/clevertech-devs/lbpartners/blob/master/README.md"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/clevertech-devs/lbpartners/blob/master/README.md"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://lbpartners.be/">View Demo</a>
     ·
-    <a href="https://https://github.com/clevertech-devs/lbpartners/issues">Report Bug</a>
+    <a href="https://github.com/clevertech-devs/lbpartners/issues">Report Bug</a>
     ·
-    <a href="https://https://github.com/clevertech-devs/lbpartners/issues">Request Feature</a>
+    <a href="https://github.com/clevertech-devs/lbpartners/issues">Request Feature</a>
   </p>
 </p>
 
