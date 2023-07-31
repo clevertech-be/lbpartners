@@ -1645,7 +1645,7 @@ aside {
 }
 
 .showcase .card .card-body h4 {
-  margin-bottom: 50px;
+  margin-bottom: 130px;
   -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   -o-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   -moz-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -1833,7 +1833,7 @@ aside {
 .contacts i {
   width: 45px;
   height: 45px;
-  background: var(--primary-bg-color-3);
+  background: var(--white-color);
   border-radius: 100px;
   text-align: center;
   line-height: 45px;
