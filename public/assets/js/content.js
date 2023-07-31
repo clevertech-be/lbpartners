@@ -231,7 +231,7 @@ jQuery(function ($) {
   }
 
   $(document).ready(function () {
-    const initialLanguage = window.localStorage.getItem("current-locale");
+    const initialLanguage = "fr"; //window.localStorage.getItem("current-locale");
     if (initialLanguage === null) {
       const potentialLng = (
         navigator.languages.find((language) => {
