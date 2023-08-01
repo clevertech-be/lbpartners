@@ -582,6 +582,67 @@
       </div>
     </section>
 
+    <!-- Subscribe -->
+    <section id="subscribe" class="section-6 odd subscribe">
+      <div class="container smaller">
+        <div class="row">
+          <div class="col-12 col-md-6 m-md-0 intro">
+            <span
+              class="pre-title m-0"
+              data-translation-key="newsletter_pre_title"
+            ></span>
+            <h2>
+              <span data-translation-key="newsletter_title_beginning"></span
+              ><span
+                class="featured"
+                data-translation-key="newsletter_title_highlighted_end"
+              ></span>
+            </h2>
+            <p data-translation-key="newsletter_body"></p>
+          </div>
+          <div class="col-12 col-md-6">
+            <form
+              data-netlify="true"
+              netlify
+              name="subscribe"
+              method="POST"
+              id="nexgen-subscribe"
+              class="row m-auto items"
+            >
+              <input type="hidden" name="section" value="nexgen_subscribe" />
+
+              <div class="col-12 mt-0 input-group align-self-center item">
+                <input
+                  type="text"
+                  name="name"
+                  class="form-control field-name"
+                  placeholder-translation-key="newsletter_form_name_placeholder"
+                />
+              </div>
+              <div class="col-12 input-group align-self-center item">
+                <input
+                  type="email"
+                  name="email"
+                  class="form-control field-email"
+                  placeholder-translation-key="newsletter_form_email_address_placeholder"
+                />
+              </div>
+              <div class="col-12 input-group align-self-center item">
+                <a
+                  data-aos="zoom-in"
+                  class="btn primary-button"
+                  data-translation-key="newsletter_form_cta_subscribe"
+                ></a>
+              </div>
+              <div class="col-12 item">
+                <span class="form-alert mt-3 mb-0"></span>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Blog -->
     <section id="blog" class="section-5 carousel showcase">
       <div class="overflow-holder">
@@ -715,67 +776,6 @@
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Subscribe -->
-    <section id="subscribe" class="section-6 odd subscribe">
-      <div class="container smaller">
-        <div class="row">
-          <div class="col-12 col-md-6 m-md-0 intro">
-            <span
-              class="pre-title m-0"
-              data-translation-key="newsletter_pre_title"
-            ></span>
-            <h2>
-              <span data-translation-key="newsletter_title_beginning"></span
-              ><span
-                class="featured"
-                data-translation-key="newsletter_title_highlighted_end"
-              ></span>
-            </h2>
-            <p data-translation-key="newsletter_body"></p>
-          </div>
-          <div class="col-12 col-md-6">
-            <form
-              data-netlify="true"
-              netlify
-              name="subscribe"
-              method="POST"
-              id="nexgen-subscribe"
-              class="row m-auto items"
-            >
-              <input type="hidden" name="section" value="nexgen_subscribe" />
-
-              <div class="col-12 mt-0 input-group align-self-center item">
-                <input
-                  type="text"
-                  name="name"
-                  class="form-control field-name"
-                  placeholder-translation-key="newsletter_form_name_placeholder"
-                />
-              </div>
-              <div class="col-12 input-group align-self-center item">
-                <input
-                  type="email"
-                  name="email"
-                  class="form-control field-email"
-                  placeholder-translation-key="newsletter_form_email_address_placeholder"
-                />
-              </div>
-              <div class="col-12 input-group align-self-center item">
-                <a
-                  data-aos="zoom-in"
-                  class="btn primary-button"
-                  data-translation-key="newsletter_form_cta_subscribe"
-                ></a>
-              </div>
-              <div class="col-12 item">
-                <span class="form-alert mt-3 mb-0"></span>
-              </div>
-            </form>
           </div>
         </div>
       </div>
