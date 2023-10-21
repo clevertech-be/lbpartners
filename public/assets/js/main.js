@@ -795,34 +795,38 @@ jQuery(function ($) {
 jQuery(function ($) {
   "use strict";
 
-  function sendForm(ID) {
-    var form = $(ID);
-    var input = $(ID + " .form-control");
-    var btn = $(ID + " .btn:first-child");
-    var alert = $(ID + " .form-alert");
+  const handleSubmitContact = (e) => {
+    e.preventDefault();
+    let formData = new FormData(contactForm);
 
-    alert.hide();
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: new URLSearchParams(formData).toString(),
+    })
+      .then(() => {
+        contactForm.reset();
+      })
+      .catch((error) => {});
+  };
 
-    $(document).on("click", ID + " .btn:first-child", function () {
-      $(this).addClass("effect-motion-bg");
-      form.submit();
-    });
+  const handleSubmitSubscribe = (e) => {
+    e.preventDefault();
+    let formData = new FormData(contactForm);
 
-    form.submit(function (e) {
-      e.preventDefault();
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: new URLSearchParams(formData).toString(),
+    })
+      .then(() => {
+        contactForm.reset();
+      })
+      .catch((error) => {});
+  };
 
-      setTimeout(function () {
-        btn.removeClass("effect-motion-bg");
-        input.val("").removeClass("invalid").removeClass("valid");
-        alert
-          .text(window.languagesResources["contact_form_success"])
-          .removeClass("invalid")
-          .addClass("valid")
-          .fadeIn();
-      }, 1200);
-    });
-  }
-
-  sendForm("#nexgen-simple-form");
-  sendForm("#nexgen-subscribe");
+  var contactForm = $("#nexgen-simple-form");
+  var subscribeForm = $("#nexgen-subscribe");
+  contactForm.addEventListener("submit", handleSubmitContact);
+  subscribeForm.addEventListener("submit", handleSubmitSubscribe);
 });
