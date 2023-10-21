@@ -812,7 +812,7 @@ jQuery(function ($) {
 
   const handleSubmitSubscribe = (e) => {
     e.preventDefault();
-    let formData = new FormData(contactForm);
+    let formData = new FormData(subscribeForm);
 
     fetch("/", {
       method: "POST",
@@ -820,7 +820,7 @@ jQuery(function ($) {
       body: new URLSearchParams(formData).toString(),
     })
       .then(() => {
-        contactForm.reset();
+        subscribeForm.reset();
       })
       .catch((error) => {});
   };
