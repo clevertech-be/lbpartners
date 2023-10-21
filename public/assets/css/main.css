@@ -3411,6 +3411,10 @@ header .navbar-expand .navbar-brand .featured .first {
   padding: 0;
 }
 
+.hidden {
+  display: none;
+}
+
 .image-over {
   overflow: hidden;
   border-radius: 10px;
