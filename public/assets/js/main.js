@@ -825,8 +825,8 @@ jQuery(function ($) {
       .catch((error) => {});
   };
 
-  var contactForm = document.getElementById("#nexgen-simple-form");
-  var subscribeForm = document.getElementById("#nexgen-subscribe");
+  var contactForm = document.getElementById("nexgen-simple-form");
+  var subscribeForm = document.getElementById("nexgen-subscribe");
   contactForm.addEventListener("submit", handleSubmitContact);
   subscribeForm.addEventListener("submit", handleSubmitSubscribe);
 });
